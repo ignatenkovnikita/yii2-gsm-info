@@ -25,7 +25,19 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by  :
+Add this to your main configuration's components array:
 
 ```php
-<?= \ignatenkovnikita\gsminfo\AutoloadExample::widget(); ?>```
+'gsmInfo' => [
+            'class' =>  \ignatenkovnikita\refillmobile\ClientGsmInfo::className(),
+            'url' => your_url,
+            'user' => your_user,
+            'pass' => your_pass,
+        ],
+```
+Typical component usage
+-----------------------
+```php
+Yii::$app->gsmInfo->getInfo(7 your_phone);
+Yii::$app->gsmInfo->getRegion(7 your_phone);
+```
