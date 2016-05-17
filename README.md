@@ -2,6 +2,8 @@ Client for gsm info
 ===================
 Client for gsm info
 
+[![Latest Stable Version](https://poser.pugx.org/ignatenkovnikita/yii2-gsm-info/v/stable)](https://packagist.org/packages/ignatenkovnikita/yii2-gsm-info) [![Total Downloads](https://poser.pugx.org/ignatenkovnikita/yii2-gsm-info/downloads)](https://packagist.org/packages/ignatenkovnikita/yii2-gsm-info) [![Latest Unstable Version](https://poser.pugx.org/ignatenkovnikita/yii2-gsm-info/v/unstable)](https://packagist.org/packages/ignatenkovnikita/yii2-gsm-info) [![License](https://poser.pugx.org/ignatenkovnikita/yii2-gsm-info/license)](https://packagist.org/packages/ignatenkovnikita/yii2-gsm-info)
+
 Installation
 ------------
 
